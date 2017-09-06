@@ -1,0 +1,71 @@
+.p1 {
+    background-color: green;
+}
+
+.p2 {
+    background-color: violet;
+}
+
+.p1:hover {
+    background-color: yellow;
+}
+
+.p2:hover {
+    background-color: brown;
+}
+
+.p1:active {
+    background-color: red;
+}
+
+.p2:active {
+    background-color: gold;
+}
+
+input:active {
+    background-color: green;
+}
+
+.task_3>p:nth-child(2n) {
+    background-color: grey;
+}
+
+.task_3>p::first-letter {
+    font-size: 2em;
+    color: red;
+    font-family: Georgia;
+}
+
+.task_3>p:after {
+    content: '*';
+}
+
+.task_3>p:before {
+    content: "☂";
+}
+
+.rectangle {
+    height: 20px;
+    width: 40px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.rectangle:before {
+    content: '\25C0';
+    position: absolute;
+    left: -7px;
+}
+textarea {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+/*#repultion {
+	position: relative;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+*/
